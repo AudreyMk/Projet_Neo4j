@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Neo4j
+*.db
+*.log
+data/
+logs/
+
+# Configuration sensible
+config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+test_password.py
+
+# Fichiers volumineux (à mettre sur Git LFS si nécessaire)
+restaurants_france_raw.csv
